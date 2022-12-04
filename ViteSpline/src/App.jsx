@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import Spline from '@splinetool/react-spline'
 
 const Container = styled.div`
   display: grid;
@@ -27,6 +28,11 @@ function App() {
           <div className='bg-red-500 h-64 m-2'>2</div>
           <div className='bg-red-500 h-64 m-2'>3</div>
           <div className='bg-red-500 h-64 m-2'>4</div>
+        </Container>
+        <Container>
+          <div className='w-full h-screen'>
+            <Spline scene='https://prod.spline.design/rEH4Lh3nnDWquWzj/scene.splinecode'/>
+          </div>
         </Container>
       </section>
     </>
