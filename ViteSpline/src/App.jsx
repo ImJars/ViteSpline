@@ -1,4 +1,5 @@
 import React from 'react'
+import Home_screen from './components/home_screen'
 // import styled from 'styled-components'
 // import Spline from '@splinetool/react-spline'
 import Header from './header'
@@ -29,6 +30,11 @@ function App() {
             <Spline scene='https://prod.spline.design/lbZpNCqArKh0vxsY/scene.splinecode'/>
           </div>
         </Container> */}
+        <div
+          className='flex justify-center items-center h-screen'
+        >
+          <Home_screen />
+        </div>
       </section>
     </>
   )
