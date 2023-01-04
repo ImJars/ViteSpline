@@ -23,15 +23,15 @@ function App() {
             Hello! this My App
           </Text>
         </header>
-        <Container>
+        {/* <Container>
           <div className='bg-red-500 h-64 m-2'>1</div>
           <div className='bg-red-500 h-64 m-2'>2</div>
           <div className='bg-red-500 h-64 m-2'>3</div>
           <div className='bg-red-500 h-64 m-2'>4</div>
-        </Container>
+        </Container> */}
         <Container>
           <div className='w-full h-screen'>
-            <Spline scene='https://prod.spline.design/rEH4Lh3nnDWquWzj/scene.splinecode'/>
+            <Spline scene='https://prod.spline.design/lbZpNCqArKh0vxsY/scene.splinecode'/>
           </div>
         </Container>
       </section>
