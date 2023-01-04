@@ -4,7 +4,7 @@ function Header_link({ classNames, name_link, section_link}) {
     return (
         <>
             <a  
-                className={ `${ classNames } text-lg font-bold`  } 
+                className={ `${ classNames } text-lg font-bold flex items-center`  } 
                 href={ section_link}
             >
                 <li>

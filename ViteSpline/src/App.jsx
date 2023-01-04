@@ -14,7 +14,9 @@ import Header from './header'
 function App() {
   return (
     <>
-      <section>
+      <section
+        className='bg-background w-full h-screen'
+      >
         <Header />
         {/* <Container>
           <div className='bg-red-500 h-64 m-2'>1</div>
