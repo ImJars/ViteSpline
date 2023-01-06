@@ -5,7 +5,7 @@ function Header() {
     return (
         <>
             <header
-                className='fixed w-full flex justify-between items-center px-20 py-10'
+                className='fixed w-full flex justify-between items-center px-20 py-10 z-10'
             >
                 <div>
 
