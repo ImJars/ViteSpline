@@ -6,7 +6,7 @@ const Before = styled.div`
     .line{
         width: 30px;
         height: 3px;
-        background-color: #FFA500;
+        background-color: #D05D38;
         margin-right: 10px;
         border-radius: 50px;
     }

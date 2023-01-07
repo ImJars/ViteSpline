@@ -1,17 +1,19 @@
 import React from 'react'
+import Title_component from './components/title_component'
 
 function About() {
     return (
         <>
             <section
-                className='w-full h-screen flex justify-center 
-                        items-center bg-background'
+                className='w-full h-screen bg-background'
             >
-                <h1
-                    className='text-7xl font-bold'
+                <div
+                    className='mx-20 py-20'
                 >
-                    About Me
-                </h1>
+                    <Title_component 
+                        Title_component='About Me'
+                    />
+                </div>
             </section>
         </>
     )
