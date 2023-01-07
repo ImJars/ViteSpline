@@ -42,12 +42,12 @@ function Home_screen() {
                             I build things for the web.
                         </h3>
                         <Before
-                            className='text-md mt-4 flex items-center font-bold'
+                            className='text-lg mt-4 flex items-center'
                         >   <div
                                 className='line'
                             />
                             <p>
-                                Freelancer & Full Stack Developer
+                                A Freelancer & Full Stack Developer
                             </p>
                         </Before>
                         <a 

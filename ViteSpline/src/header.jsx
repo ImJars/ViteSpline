@@ -5,10 +5,21 @@ function Header() {
     return (
         <>
             <header
-                className='fixed w-full flex justify-between items-center px-20 py-10 z-10'
+                className='fixed bg-background w-full flex justify-between items-center px-20 py-5 z-10'
             >
                 <div>
-
+                    <a 
+                        href="https://github.com/ImJars"
+                        target='_blank'
+                        rel='noreferrer'
+                    >
+                        <h1
+                            className='text-2xl font-bold tracking-wider
+                                    text-color_dark_blue'
+                        >
+                            Jars.
+                        </h1>
+                    </a>
                 </div>
                 <div>
                     <ul
@@ -31,7 +42,11 @@ function Header() {
                             section_link='#'
                         />
                         <Header_link
-                            classNames={'bg-color_dark_blue py-2 px-6 rounded-full text-white'}
+                            name_link='Blog'
+                            section_link='#'
+                        />
+                        <Header_link
+                            classNames={'bg-color_dark_blue px-6 py-2 rounded-md text-white'}
                             name_link='Contact'
                             section_link='#'
                         />
