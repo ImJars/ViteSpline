@@ -1,6 +1,16 @@
 import React from 'react'
 import Spline from '@splinetool/react-spline'
+import styled from 'styled-components'
 
+const Before = styled.div`
+    .line{
+        width: 30px;
+        height: 3px;
+        background-color: #FFA500;
+        margin-right: 10px;
+        border-radius: 50px;
+    }
+`
 function Home_screen() {
     return (
         <>
@@ -19,25 +29,37 @@ function Home_screen() {
                         <h1
                             className='text-lg font-bold'
                         >
-                            Hello!
+                            Hello! My name is
                         </h1>
                         <h2
-                            className='text-7xl font-bold'
+                            className='text-8xl font-bold'
                         >
-                            I'm Software Developer
+                            Razam Smith
                         </h2>
                         <h3
-                            className='text-5xl font-bold text-color_orange mt-2'
+                            className='text-4xl font-bold text-color_orange mt-2'
                         >
                             I build things for the web.
                         </h3>
-                        <p
-                            className='text-md w-2/3 mt-4'
+                        <Before
+                            className='text-md mt-4 flex items-center font-bold'
+                        >   <div
+                                className='line'
+                            />
+                            <p>
+                                Freelancer & Full Stack Developer
+                            </p>
+                        </Before>
+                        <a 
+                            href="#"
+                            className='text-md mt-5 flex items-center'
                         >
-                            I'm a software developer specializing in creating exceptional 
-                            products and digital experiences. I am currently focused on 
-                            creating <font className='text-color_orange '>Web3</font> technology products.
-                        </p>
+                            <button
+                                className='bg-color_orange text-white px-4 py-2 rounded-md mt-4'
+                            >
+                                know more
+                            </button>
+                        </a>
                     </div>
                 </div>
             </section>
