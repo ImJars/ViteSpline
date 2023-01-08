@@ -1,6 +1,7 @@
 import React from 'react'
 import Title_component from './components/title_component'
 import Img from '../src/assets/me.jpg'
+import About_text from './components/about_text'
 
 function About() {
     return (
@@ -41,6 +42,30 @@ function About() {
                                 about JavaScript and React and I love to create responsive and accessible
                                 websites.
                             </h2>
+                            <div
+                                className='flex mt-5 space-x-20'
+                            >
+                                <div>
+                                    <About_text
+                                        about='Name:'
+                                        text='Angel Ramirez'
+                                    />
+                                    <About_text
+                                        about='Email:'
+                                        text='hi.legacyier@gmail.com'
+                                    />
+                                </div>
+                                <div>
+                                    <About_text
+                                        about='Phone:'
+                                        text='+52 55 2914 7674'
+                                    />
+                                    <About_text
+                                        about='Work status:'
+                                        text='Software Developer'
+                                    />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
