@@ -2,6 +2,7 @@ import React from 'react'
 import Title_component from './components/title_component'
 import Img from '../src/assets/me.jpg'
 import About_text from './components/about_text'
+import About_card from './components/about_card'
 
 function About() {
     return (
@@ -86,6 +87,28 @@ function About() {
                             </div>
                         </div>
                     </div>
+                    <section
+                        className='flex w-full justify-around'
+                    >
+                        <About_card 
+                            title='Frontend Developer'
+                        />
+                        <About_card 
+                            title='Frontend Developer'
+                        />
+                        <About_card 
+                            title='Frontend Developer'
+                        />
+                        <About_card 
+                            title='Frontend Developer'
+                        />
+                        <About_card 
+                            title='Frontend Developer'
+                        />
+                        <About_card 
+                            title='Frontend Developer'
+                        />
+                    </section>
                 </div>
             </section>
         </>
