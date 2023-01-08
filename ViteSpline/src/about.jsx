@@ -25,7 +25,7 @@ function About() {
                             <img src={ Img } alt="" />
                         </div>
                         <div
-                            className='w-2/3 h-full flex flex-col justify-center'
+                            className='w-2/3 h-full grid my-auto justify-center content-center'
                         >
                             <h1
                                 className='text-4xl font-bold'
@@ -65,6 +65,24 @@ function About() {
                                         text='Software Developer'
                                     />
                                 </div>
+                            </div>
+                            <div
+                                className='flex mt-10 space-x-10'
+                            >
+                                <a href="#">
+                                    <button
+                                        className='bg-color_yellow px-6 py-2 rounded-md  font-bold'
+                                    >
+                                        Download CV
+                                    </button>
+                                </a>
+                                <a href="#">
+                                    <button
+                                        className='bg-color_yellow px-6 py-2 rounded-md  font-bold'
+                                    >
+                                        Contact Me
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
