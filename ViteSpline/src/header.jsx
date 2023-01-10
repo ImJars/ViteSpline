@@ -6,7 +6,7 @@ function Header() {
     return (
         <>
             <header
-                className='fixed z-10'
+                className='fixed z-10 transform right-10 bottom-1/2'
             >
                 <Menu_component />
             </header>
