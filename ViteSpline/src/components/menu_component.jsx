@@ -1,23 +1,27 @@
 import React from 'react'
-import styled from 'styled-components'
+import Bar_component from './bar_component'
 
-const Menu_bar = styled.div`
-    width: 50px;
-    height: 5px;
-    background-color: black;
-    margin: 5px 0;
-    border-radius: 50px;
-`
 function Menu_component() {
     return (
         <section
-            className='flex flex-col'
+            className='grid justify-items-end'
         >
-            <Menu_bar />
-            <Menu_bar />
-            <Menu_bar />
-            <Menu_bar />
-            <Menu_bar />
+            <Bar_component 
+                link={'#'}
+            />
+            <Bar_component 
+                link={'#'}
+            />
+            <Bar_component 
+                link={'#'}
+            />
+            <Bar_component 
+                link={'#'}
+            />
+            <Bar_component 
+                link={'#'}
+            />
+
         </section>
     )
 }
