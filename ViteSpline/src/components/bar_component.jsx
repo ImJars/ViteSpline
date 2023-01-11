@@ -1,26 +1,33 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Menu_bar = styled.a`
+const Menu_bar = styled.button`
+    display: grid;
     width: 50px;
-    height: 5px;
-    background-color: #373F51;
-    border-radius: 50px;
-    border-right: 50px;
-    margin: 10px;
-    padding: 10px;
-    :hover {
-        width: 80px;
-        transition: all 0.3s ease-in-out;
+    height: 50px;
+    align-items: center;
+    justify-content: end;
+    .bar{
+        display: grid;
+        width: 50px;
+        height: 5px;
+        background-color: black;
+        max-height: 10px;
+        margin: 10px;
+        :hover{
+            background-color: #FF0000;
+            width: 80px;
+        }
     }
 `
 function Bar_component({ link }) {
     return (
       <>
         <Menu_bar
-          href={ link }
         >
-          <h1 className='name'/>
+          <a 
+            href={ link }
+            className='bar'/>  
         </Menu_bar>
       </>
     )
