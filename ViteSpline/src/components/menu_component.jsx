@@ -8,6 +8,7 @@ function Menu_component() {
         >
             <Bar_component 
                 link={'#'}
+                nameLink={'Home'}
             />
             <Bar_component 
                 link={'#'}
