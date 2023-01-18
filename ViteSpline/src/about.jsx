@@ -4,11 +4,12 @@ import Img from '../src/assets/me.jpg'
 import About_text from './components/about_text'
 import About_card from './components/about_card'
 
-function About() {
+function About({ refAboutMe }) {
     return (
         <>
             <section
-            id='About'
+                id='About'
+                ref={ refAboutMe }
                 className='w-full h-screen bg-background'
             >
                 <div

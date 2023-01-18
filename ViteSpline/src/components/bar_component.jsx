@@ -1,10 +1,12 @@
 import React from "react";
+import { motion } from "framer-motion";
 
-function Bar_component({ link, nameLink }) {
+function Bar_component({ link, animateBar, nameLink }) {
     return (
         <>
             <a href={ link } className="group py-3 px-6 block relative">
-                <div
+                <motion.div
+                    animate={ animateBar }
                     className="w-7 border-color_dark_blue h-0.5 
                             border-2 rounded-full transition-all 
                             duration-500 group-hover:w-16 
@@ -24,7 +26,7 @@ function Bar_component({ link, nameLink }) {
                         { nameLink }
                         </span>
                     </div>
-                </div>
+                </motion.div>
             </a>
         </>
     );

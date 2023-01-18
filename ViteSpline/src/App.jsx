@@ -2,7 +2,6 @@ import React from 'react'
 import Home_screen from './components/home_screen'
 // import styled from 'styled-components'
 // import Spline from '@splinetool/react-spline'
-import Header from './header'
 
 // const Container = styled.div`
 //   display: grid;
@@ -12,14 +11,14 @@ import Header from './header'
 // const Text = styled.h1`
 //   font-size: clamp(0.75rem, 0.0909rem + 4.2182vw, 8rem);
 // `
-function App() {
+function App({ refHome }) {
   return (
     <>
       <section
         id='Home'
+        ref={ refHome }
         className='bg-background w-full h-screen'
       >
-        <Header />
         {/* <Container>
           <div className='bg-red-500 h-64 m-2'>1</div>
           <div className='bg-red-500 h-64 m-2'>2</div>

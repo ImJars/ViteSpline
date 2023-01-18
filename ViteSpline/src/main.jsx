@@ -1,12 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import About from './about'
-import App from './App'
 import './index.css'
+import Navigation from './navigation'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
-    <About />
+    <Navigation />
   </React.StrictMode>
 )
