@@ -16,6 +16,7 @@ function App() {
   return (
     <>
       <section
+        id='Home'
         className='bg-background w-full h-screen'
       >
         <Header />

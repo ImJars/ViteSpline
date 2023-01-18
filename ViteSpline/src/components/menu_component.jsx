@@ -9,11 +9,11 @@ function Menu_component() {
                             sm:top-1/2 w-24 top-1/2 hidden sm:block z-50"
         >
             <Bar_component 
-                link="#home"
+                link="#Home"
                 nameLink="HOME"
             />
             <Bar_component
-                link="#about"
+                link="#About"
                 nameLink="ABOUT"
             />
             <Bar_component

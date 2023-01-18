@@ -8,6 +8,7 @@ function About() {
     return (
         <>
             <section
+            id='About'
                 className='w-full h-screen bg-background'
             >
                 <div
